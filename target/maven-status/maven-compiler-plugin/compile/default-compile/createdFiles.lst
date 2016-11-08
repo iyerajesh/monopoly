@@ -1,0 +1,8 @@
+org\activiti\ActivitiEngine.class
+org\activiti\domain\Manager.class
+org\activiti\ManagerRepository.class
+org\activiti\ClaimService.class
+org\activiti\ActivitiEngine$1.class
+org\activiti\ClaimsWorkflowController$StartProcessRepresentation.class
+org\activiti\ClaimsWorkflowController.class
+org\activiti\ClaimsWorkflowController$TaskRepresentation.class
