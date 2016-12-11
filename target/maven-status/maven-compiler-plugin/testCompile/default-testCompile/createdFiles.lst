@@ -1,0 +1,4 @@
+com\barclays\microservices\monopoly\test\player\PlayerTest.class
+com\barclays\microservices\monopoly\test\game\GameMasterTest.class
+com\barclays\microservices\monopoly\test\game\GameBoardTest.class
+com\barclays\microservices\monopoly\test\cell\AllCellsTest.class

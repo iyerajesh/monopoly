@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.activiti</groupId>
-	<artifactId>activiti-engine-5.21.0</artifactId>
+	<groupId>com.barclays.microservices.monopoly</groupId>
+	<artifactId>monopoly-engine-1.0.0</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
 	<dependencies>
@@ -13,13 +13,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<version>1.4.1.RELEASE</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
 			<version>1.4.1.RELEASE</version>
 		</dependency>
 
@@ -35,50 +28,41 @@
 			<version>1.4.1.RELEASE</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<version>1.4.1.RELEASE</version>
+			<scope>test</scope>
+		</dependency>
 
 		<!-- End Spring Boot dependencies -->
 
-		<!-- Begin Activiti Spring Boot dependencies -->
-
 		<dependency>
-			<groupId>org.activiti</groupId>
-			<artifactId>activiti-spring-boot-starter-basic</artifactId>
-			<version>5.21.0</version>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+			<version>2.7.4</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path -->
 		<dependency>
-			<groupId>org.activiti</groupId>
-			<artifactId>activiti-spring-boot-starter-jpa</artifactId>
-			<version>5.21.0</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.activiti</groupId>
-			<artifactId>activiti-spring-boot-starter-rest-api</artifactId>
-			<version>5.18.0</version>
-		</dependency>
-
-		<!-- End Activiti Spring boot dependencies -->
-
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>6.0.5</version>
-		</dependency>
-		
-		<!-- util -->
-		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-			<version>19.0</version>
+			<groupId>com.jayway.jsonpath</groupId>
+			<artifactId>json-path</artifactId>
+			<version>2.2.0</version>
 		</dependency>
 
 	</dependencies>
 
+	<repositories>
+		<repository>
+			<id>Central</id>
+			<name>Central</name>
+			<url>http://repo1.maven.org/maven2/</url>
+			<layout>default</layout>
+		</repository>
+	</repositories>
+
 	<build>
-
 		<plugins>
-
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -92,7 +76,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<version>1.4.0.RELEASE</version>
+				<version>1.4.1.RELEASE</version>
 				<executions>
 					<execution>
 						<goals>
@@ -110,14 +94,9 @@
 						<exclude>**/*IntegrationTest.java</exclude>
 						<exclude>**/*LiveTest.java</exclude>
 					</excludes>
-					<systemPropertyVariables>
-						<!-- <provPersistenceTarget>h2</provPersistenceTarget> -->
-					</systemPropertyVariables>
 				</configuration>
 			</plugin>
-
 		</plugins>
-
 	</build>
 
 </project>

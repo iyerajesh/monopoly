@@ -1,5 +1,11 @@
-C:\Users\ag216\workspace.new1\activiti-engine-5.21.0\src\main\java\org\activiti\ClaimsWorkflowController.java
-C:\Users\ag216\workspace.new1\activiti-engine-5.21.0\src\main\java\org\activiti\domain\Manager.java
-C:\Users\ag216\workspace.new1\activiti-engine-5.21.0\src\main\java\org\activiti\ManagerRepository.java
-C:\Users\ag216\workspace.new1\activiti-engine-5.21.0\src\main\java\org\activiti\ClaimService.java
-C:\Users\ag216\workspace.new1\activiti-engine-5.21.0\src\main\java\org\activiti\ActivitiEngine.java
+C:\Users\ag216\workspace.new1\monopoly\src\main\java\com\barclays\microservices\monopoly\cell\JailCell.java
+C:\Users\ag216\workspace.new1\monopoly\src\main\java\com\barclays\microservices\monopoly\cell\RailRoadCell.java
+C:\Users\ag216\workspace.new1\monopoly\src\main\java\com\barclays\microservices\monopoly\cell\UtilityCell.java
+C:\Users\ag216\workspace.new1\monopoly\src\main\java\com\barclays\microservices\monopoly\config\PlayerApplication.java
+C:\Users\ag216\workspace.new1\monopoly\src\main\java\com\barclays\microservices\monopoly\game\GameMaster.java
+C:\Users\ag216\workspace.new1\monopoly\src\main\java\com\barclays\microservices\monopoly\player\Player.java
+C:\Users\ag216\workspace.new1\monopoly\src\main\java\com\barclays\microservices\monopoly\cell\PropertyCell.java
+C:\Users\ag216\workspace.new1\monopoly\src\main\java\com\barclays\microservices\monopoly\game\GameBoard.java
+C:\Users\ag216\workspace.new1\monopoly\src\main\java\com\barclays\microservices\monopoly\cell\IOwnable.java
+C:\Users\ag216\workspace.new1\monopoly\src\main\java\com\barclays\microservices\monopoly\config\JacksonConfiguration.java
+C:\Users\ag216\workspace.new1\monopoly\src\main\java\com\barclays\microservices\monopoly\cell\Cell.java
